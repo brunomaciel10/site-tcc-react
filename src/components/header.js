@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import React from 'react';
 import Logo from '../img/Logo - TCC (1).png'
 import "../styles/header.css"
 
