@@ -7,9 +7,12 @@
 .content,
 .img {
     flex: 1;
+    display: flex;
+    justify-content: center;
 }
 .content {
     padding: 15px;
+    flex-direction: column;
 }
 .content h2 {
     font-size: 38px;
@@ -20,9 +23,7 @@
     line-height: 1.5;
 }
 .img {
-    display: flex;
     align-items: center;
-    justify-content: center;
 }
 .image {
     max-width: 500px;
