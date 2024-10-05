@@ -5,3 +5,10 @@
   padding: 0;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
+
+/* Seção de ABOUT e de EXAMPLES */
+.section-about-examples {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+}

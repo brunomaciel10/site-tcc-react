@@ -1,6 +1,6 @@
 import "../styles/hero.css"
 
-export default function Hero() {
+export function Hero() {
     return (
         <div className="banner"></div>
     )

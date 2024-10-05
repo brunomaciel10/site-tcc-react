@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Logo from '../img/Logo - TCC (1).png'
 import "../styles/header.css"
 
-export default function Header() {
+export function Header() {
   return (
     <header>
       <div className='header'>

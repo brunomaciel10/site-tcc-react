@@ -1,0 +1,30 @@
+.about {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+.content,
+.img {
+    flex: 1;
+}
+.content {
+    padding: 15px;
+}
+.content h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.content p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    max-width: 500px;
+    height: auto;
+}
