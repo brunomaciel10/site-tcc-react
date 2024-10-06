@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Turismo de Aventura"
+  title: "Turismo de Aventura | TCC"
 };
 
 export default function RootLayout({ children }) {

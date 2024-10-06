@@ -5,6 +5,7 @@ import { Hero } from "@/components/hero";
 import { exemplosTurismo } from "@/data/exemplosTurismo";
 import { AboutUs } from "@/components/aboutus";
 import { actions } from "@/data/actions";
+import { Footer } from "@/components/footer";
 
 export default function Page() {
   return (
@@ -18,7 +19,12 @@ export default function Page() {
       <section className='bg-dark'>
         <AboutUs />
       </section>
-      <Cart itens={actions} />
+      <section id='actions'>
+      <Cart itens={actions} /> {/* carts das ações */}
+      </section>
+      <section className='bg-dark'>
+        <Footer />
+      </section>
     </>
   )
 }

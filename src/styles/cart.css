@@ -4,6 +4,7 @@
     align-items: center;
     margin: auto;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 .cart {
     display: flex;

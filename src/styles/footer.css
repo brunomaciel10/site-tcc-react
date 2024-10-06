@@ -1,0 +1,29 @@
+footer {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+.footer-left,
+.footer-right {
+    display: flex;
+    flex: 1;
+}
+.footer-left {
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+.footer-right {
+    gap: 12px;
+    justify-content: flex-end;
+}
+.img-projeto {
+    width: 100px;
+    height: auto;
+}
+.img-escola {
+    width: 250px;
+    height: auto;
+}

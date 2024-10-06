@@ -12,9 +12,9 @@ export function Header() {
         </div>
         <div className='menu'>
           <ul>
-            <li><Link className='active' href="#sobre">O que é?</Link></li>
-            <li><Link href="/">Sobre nós</Link></li>
-            <li><Link href="/">Ações do projeto</Link></li>
+            <li><Link className='active' href="#tema">O que é?</Link></li>
+            <li><Link href="#sobre">Sobre nós</Link></li>
+            <li><Link href="#actions">Ações do projeto</Link></li>
           </ul>
         </div>
       </div>
