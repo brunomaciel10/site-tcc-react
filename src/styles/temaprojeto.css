@@ -3,25 +3,23 @@
     width: 80%;
     margin: auto;
     margin-top: 80px;
-    flex-direction: row-reverse;
-    padding: 20px;
 }
-.content-about,
+.content-tema,
 .img {
     flex: 1;
     display: flex;
     justify-content: center;
 }
-.content-about {
-    flex-direction: column;
+.content-tema {
     padding: 15px;
+    flex-direction: column;
 }
-.content-about h2 {
+.content-tema h2 {
     font-size: 38px;
     margin-bottom: 20px;
 }
-.content-about p {
-    font-size: 18px;
+.content-tema p {
+    font-size: 17px;
     line-height: 1.5;
 }
 .img {

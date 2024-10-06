@@ -1,10 +1,10 @@
 import '../styles/cart.css'
 
-export function Cart({ exemplos }) {
+export function Cart({ itens }) {
     return (
         <section className='cart-area'>
             <div className='cart'>
-                {exemplos.map((item, index) => 
+                {itens.map((item, index) => 
                     <div key={index} className='cart-item'>
                         <img src={item.image}/>
                         <div className='card-content'>

@@ -12,3 +12,10 @@
   flex-direction: column;
   background-color: #FFF;
 }
+
+/* Fundo BLACK */
+.bg-dark {
+  background-color: #000;
+  margin-top: 60px;
+  color: #FFF;
+}
