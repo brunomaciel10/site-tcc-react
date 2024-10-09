@@ -27,3 +27,39 @@ footer {
     width: 250px;
     height: auto;
 }
+
+@media (min-width: 450px) and (max-width: 850px) {
+    footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-left {
+        align-items: flex-start;
+        width: 100%;
+    }
+    .footer-right {
+        margin-top: 25px;
+    }
+}
+@media (max-width: 450px) {
+    footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-left {
+        align-items: flex-start;
+        width: 100%;
+    }
+    .footer-right {
+        margin-top: 25px;
+        flex-direction: column;
+    }
+    .img-escola {
+        width: 50%;
+        height: auto;
+    }
+    .img-projeto {
+        width: 30%;
+        height: auto;
+    }
+}

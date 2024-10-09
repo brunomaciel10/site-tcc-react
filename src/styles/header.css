@@ -28,3 +28,14 @@ header {
 .header .menu ul li a:hover {
     background-color: #d6dcde;
 }
+
+@media (min-width: 450px) and (max-width: 850px) {
+    .menu {
+        display: none;
+    }
+}
+@media (max-width: 450px) {
+    .menu {
+        display: none;
+    }
+}

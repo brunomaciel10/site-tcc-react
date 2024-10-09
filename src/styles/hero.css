@@ -4,3 +4,9 @@
     background-position: center;
     height: calc(100vh - 100px);
 }
+
+@media (max-width: 450px) {
+    .banner {
+        background-position: left;
+    }
+}
