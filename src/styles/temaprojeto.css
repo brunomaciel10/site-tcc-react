@@ -30,6 +30,15 @@
     height: auto;
 }
 
+@media (max-width: 1024px) {
+    .tema {
+        flex-direction: column-reverse;
+        margin-top: 25px;
+    }
+    .content-tema h2 {
+        text-align: center;
+    }
+}
 @media (min-width: 450px) and (max-width: 850px) {
     .tema {
         flex-direction: column-reverse;
