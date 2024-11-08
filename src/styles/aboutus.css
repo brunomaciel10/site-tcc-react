@@ -54,6 +54,9 @@
     .image {
         width: 90%;
     }
+    .img {
+        margin-bottom: 25px;
+    }
 }
 @media (max-width: 450px) {
     .about {
